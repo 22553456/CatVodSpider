@@ -9,6 +9,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 
+import com.github.catvod.bean.Result;
 import com.github.catvod.crawler.SpiderDebug;
 
 import java.lang.reflect.Field;
