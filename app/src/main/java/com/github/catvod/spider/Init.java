@@ -42,6 +42,7 @@ public class Init {
 
     public static void init(Context context) {
         get().app = ((Application) context);
+        return Result.notify("加载成功！");
         SpiderDebug.log("自定義爬蟲代碼載入成功！");
     }
 
